@@ -126,6 +126,6 @@ Image of ll ang gs working which is for :
 ![Image](https://github.com/user-attachments/assets/412aff83-7b6b-4732-ad57-b70dcb82e59d)
 
 Here is a photo of my script:
-
+![Image](https://github.com/user-attachments/assets/242bb319-c1bc-4090-8b1d-e1350f74a443)
 
 
