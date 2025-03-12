@@ -114,4 +114,10 @@ Image of ll ang gs working which is for :
 +  gs for github repository staus (At the time there was nothing in the repository)
 + I got this infomration from :
     + https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
-    + https://gist.github.com/zachbrowne/8bc414c9f30192067831fafebd14255c 
+    + https://gist.github.com/zachbrowne/8bc414c9f30192067831fafebd14255c
+ ![Image](https://github.com/user-attachments/assets/82f0c925-6892-4460-ac43-4d3b267f5180)
+
+![Image](https://github.com/user-attachments/assets/74bf1e6a-d78c-44ed-8c5a-adab8fd3d62f)
+
+2. I added the date from "Something cool from The Ultimate B.A. .bashrc file"
+   
