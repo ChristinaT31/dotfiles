@@ -112,3 +112,6 @@ Discoveries:
 Image of ll ang gs working which is for :
 + ll is an alias for the ls -lah command
 +  gs for github repository staus (At the time there was nothing in the repository)
++ I got this infomration from :
+    + https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
+    + https://gist.github.com/zachbrowne/8bc414c9f30192067831fafebd14255c 
