@@ -123,4 +123,5 @@ Image of ll ang gs working which is for :
    ![Image](https://github.com/user-attachments/assets/37c0c385-7961-41ba-8ff2-6370501917d8)
 
 3. I created a script that. I did ask ChatGPT to write me a script and got 
+![Image](https://github.com/user-attachments/assets/412aff83-7b6b-4732-ad57-b70dcb82e59d)
 
