@@ -127,5 +127,6 @@ Image of ll ang gs working which is for :
 
 Here is a photo of my script:
 ![Image](https://github.com/user-attachments/assets/242bb319-c1bc-4090-8b1d-e1350f74a443)
-
+ + I did ask ChatGPT to help me write a script that does the following and it also provided me with this Github:
+ + https://github.com/OscarSavolainen/AutomatedFilesBackup?utm_source=chatgpt.com 
 
