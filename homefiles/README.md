@@ -101,18 +101,14 @@ function whatsmyip ()
         echo -n "External IP: " ; wget http://smart-ip.net/myip -O - -q
 }
 
-# IP address lookup
-alias whatismyip="whatsmyip"
-function whatsmyip ()
-{
-        # Dumps a list of all IP addresses for every device
-        # /sbin/ifconfig |grep -B1 "inet addr" |awk '{ if ( $1 == "inet" ) { print $2 } else if ( $2 == "Link" ) { prin>
-
-        # Internal IP Lookup
-        echo -n "Internal IP: " ; /sbin/ifconfig eth0 | grep "inet addr" | awk -F: '{print $2}' | awk '{print $1}'
-
-        # External IP Lookup
-        echo -n "External IP: " ; wget http://smart-ip.net/myip -O - -q
-}
 #adding a date
 alias da='date "+%Y-%m-%d %A %T %Z"'
+
+
+
+
+
+Discoveries:
+Image of ll ang gs working which is for :
++ ll is an alias for the ls -lah command
++  gs for github repository staus (At the time there was nothing in the repository)
