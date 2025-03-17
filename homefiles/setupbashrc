@@ -13,4 +13,3 @@ echo "Symbolic link created for .bashrc."
 # Prompt user to reload environment
 echo "Run 'source ~/.bashrc' to apply changes."
 
-![Image](https://github.com/user-attachments/assets/93fdad62-a59a-480f-8386-54f9c02bccf0)
