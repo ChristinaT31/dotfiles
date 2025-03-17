@@ -1,1 +1,16 @@
-This is a photo of the script that will backup and link the dotfiles repository: 
+Below is the script that will backup and link the dotfiles repository and the output of it working: 
+#!/bin/bash
+# Backup existing .bashrc if it exists
+if [ -f ~/.bashrc ]; then
+    mv ~/.bashrc ~/.bashrc.backup
+    echo "Backup of existing .bashrc created as .bashrc.backup"
+fi
+
+# Create symbolic link
+ln -s ~/dotfiles/homefiles/.bashrc ~/.bashrc
+echo "Symbolic link created for .bashrc."
+
+# Prompt user to reload environment
+echo "Run 'source ~/.bashrc' to apply changes."
+
+![Image](https://github.com/user-attachments/assets/93fdad62-a59a-480f-8386-54f9c02bccf0)
