@@ -22,9 +22,16 @@ Here is a photo of my script:
 
 
 +This is a photo of the script output of question/step 5 that copies or symbolically links the .bashrc file in your dotfiles repository to your user's home directory. This will also show a photo of the output remind (prompt) the user to reload their environment (with source or by logging out and back on)
++ To write a prompt for the user I just entered the echo command in my script
 + For this step I did use:
 + https://www.digitalocean.com/community/tutorials/an-introduction-to-useful-bash-aliases-and-functions
 + However I was still having trouble and asked ChatGPT what the script should contain getting me the output of the setupbbashrc file.
 + I asked it "How to link dotfiles to home repository with steps," and the picture shows the steps that I used both resources to get to:
-![Image](https://github.com/user-attachments/assets/a0565632-2463-4cba-b303-f0878ab6dd47)
+  
+  
+
+![Image](https://github.com/user-attachments/assets/7599f30b-8da1-47b1-825a-21d2a0e29664)
+
+
+![Image](https://github.com/user-attachments/assets/93fdad62-a59a-480f-8386-54f9c02bccf0)
 
