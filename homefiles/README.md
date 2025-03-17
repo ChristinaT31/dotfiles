@@ -1,9 +1,9 @@
 1. From the pictures below I have edited my bash.rc file and added the choosen functtions:
 Discoveries:
 Image of ll ang gs working which is for :
-+ ll is an alias for the ls -lah command
++ ll is an alias for the ls -lah command which I got from the link below
 +  gs for github repository staus (At the time there was nothing in the repository)
-+ I got this infomration from :
++ I got this infomration from (Specifically reading more on ALias) :
     + https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
     + https://gist.github.com/zachbrowne/8bc414c9f30192067831fafebd14255c
  ![Image](https://github.com/user-attachments/assets/82f0c925-6892-4460-ac43-4d3b267f5180)
@@ -16,7 +16,7 @@ Image of ll ang gs working which is for :
 ![Image](https://github.com/user-attachments/assets/412aff83-7b6b-4732-ad57-b70dcb82e59d)
 
 Here is a photo of my script:
- + I did ask ChatGPT to help me write a script that does the following and it also provided me with this Github:
+ + I did ask ChatGPT to help me write a script that does the following and it also provided me with this Github for the date and other commands:
  + https://github.com/OscarSavolainen/AutomatedFilesBackup?utm_source=chatgpt.com 
 ![Image](https://github.com/user-attachments/assets/242bb319-c1bc-4090-8b1d-e1350f74a443)
 
