@@ -1,4 +1,4 @@
-
+1. From the pictures below I have edited my bash.rc file and added the choosen functtions:
 Discoveries:
 Image of ll ang gs working which is for :
 + ll is an alias for the ls -lah command
