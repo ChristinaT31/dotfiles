@@ -13,14 +13,19 @@ Image of ll ang gs working which is for :
 2. I added the date from "Something cool from The Ultimate B.A. .bashrc file"
    ![Image](https://github.com/user-attachments/assets/37c0c385-7961-41ba-8ff2-6370501917d8)
 
-3. I created a script that. I did ask ChatGPT to write me a script and got:
 ![Image](https://github.com/user-attachments/assets/412aff83-7b6b-4732-ad57-b70dcb82e59d)
 
 Here is a photo of my script:
-![Image](https://github.com/user-attachments/assets/242bb319-c1bc-4090-8b1d-e1350f74a443)
  + I did ask ChatGPT to help me write a script that does the following and it also provided me with this Github:
  + https://github.com/OscarSavolainen/AutomatedFilesBackup?utm_source=chatgpt.com 
+![Image](https://github.com/user-attachments/assets/242bb319-c1bc-4090-8b1d-e1350f74a443)
 
 
 +This is a photo of the script output of question/step 5 that copies or symbolically links the .bashrc file in your dotfiles repository to your user's home directory.
++ For this step I did use:
++ https://www.digitalocean.com/community/tutorials/an-introduction-to-useful-bash-aliases-and-functions
++ However I was still having trouble and asked ChatGPT what the script should contain getting me the output of the setupbbashrc file.
++ I asked it "How to link dotfiles to home repository with steps," and the picture shows the steps that I used both resources to get to:
+![Image](https://github.com/user-attachments/assets/93fdad62-a59a-480f-8386-54f9c02bccf0)
+
 
