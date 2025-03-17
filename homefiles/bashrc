@@ -105,7 +105,6 @@ function whatsmyip ()
 alias da='date "+%Y-%m-%d %A %T %Z"'
 
 # Prompt user to reload the environment
-echo "Changes applied. Please run the following command to reload your environment:"
+echo "Changes have been applied, please use the following command to reload their environment with source or by logging out and back on:"
 echo "source ~/.bashrc"
-echo "Alternatively, you can log out and log back in to apply the changes."
 
