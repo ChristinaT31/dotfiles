@@ -21,3 +21,6 @@ Here is a photo of my script:
  + I did ask ChatGPT to help me write a script that does the following and it also provided me with this Github:
  + https://github.com/OscarSavolainen/AutomatedFilesBackup?utm_source=chatgpt.com 
 
+
++This is a photo of the script output of question/step 5 that copies or symbolically links the .bashrc file in your dotfiles repository to your user's home directory.
+
