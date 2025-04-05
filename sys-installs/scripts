@@ -1,0 +1,49 @@
+#!/bin/bash
+
+# Function to print and exit with a message
+function exit_with_message() {
+  echo "$1"
+  exit 1
+}
+
+# 1. Check for root privileges
+if [[ "$EUID" -ne 0 ]]; then
+  exit_with_message "This script requires sudo or root privileges. Please run it with sudo."
+fi
+
+# 2. Check if apt package manager exists
+if ! command -v apt >/dev/null 2>&1; then
+  exit_with_message "This script requires 'apt' as the package manager. Aborting."
+fi
+
+# 3. Ask user for the software they want to install
+read -rp "Enter the name of the software you want to install (e.g., apache2): " SOFTWARE
+
+# Confirm with the user before proceeding
+echo "This script will install '$SOFTWARE' using 'apt'."
+read -rp "Proceed with installation? (y/n): " CONFIRM
+
+if [[ "$CONFIRM" != "y" && "$CONFIRM" != "Y" ]]; then
+  exit_with_message "Installation canceled by user."
+fi
+
+# 4. Check if the software command already exists (name conflict)
+if command -v "$SOFTWARE" >/dev/null 2>&1; then
+  WHICH_PATH=$(command -v "$SOFTWARE")
+  echo "A command named '$SOFTWARE' already exists at: $WHICH_PATH"
+  exit_with_message "Name conflict detected. Installation aborted to prevent overwriting or shadowing."
+fi
+
+# 5. Silently install the software
+echo "Installing $SOFTWARE..."
+apt update -y >/dev/null 2>&1
+apt install -y "$SOFTWARE" >/dev/null 2>&1
+
+# Check if install was successful
+if ! command -v "$SOFTWARE" >/dev/null 2>&1; then
+  exit_with_message "Installation failed or '$SOFTWARE' did not install as a command."
+fi
+
+# 6. Notify user of successful installation
+echo "Installation complete!"
+echo "You can run it now with: $SOFTWARE"
