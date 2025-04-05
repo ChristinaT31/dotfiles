@@ -1,6 +1,7 @@
 1. Pick one of the following packages in install for Ubuntu Linux:
      + I have choosen ASL Command Line Interface to
    + I have used this website to install the package: https://linuxconfig.org/installing-aws-cli-on-ubuntu-a-step-by-step-guide
+     
 2. Adding the script: 
      + I did have ChatGPT to create me a script that does the following things steps to
         + checks the effective user id (EUID) - if running as root the script may proceed, otherwise it exits and prompts the user that this script requires sudo or root
