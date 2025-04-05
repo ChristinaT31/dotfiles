@@ -13,4 +13,4 @@
         + provides the user with information on what will be installed - allows the user to provide y for yes and proceeds or n for no and exits
           + checks if name of software or software (not each of its dependencies) exists - exits if software is found (or if software name is taken) and prompts the user that a name conflict occurred
           + silently installs the software selected per instructions
-+ Here is a photo of installing apache2 with the script:
++ Here is a photo of installing apache2 with the script as well as a photo if a command is already installed:
