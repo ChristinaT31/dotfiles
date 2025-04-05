@@ -14,3 +14,7 @@
           + checks if name of software or software (not each of its dependencies) exists - exits if software is found (or if software name is taken) and prompts the user that a name conflict occurred
           + silently installs the software selected per instructions
 + Here is a photo of installing apache2 with the script as well as a photo if a command is already installed:
+ ![Image](https://github.com/user-attachments/assets/51b2d258-9e1b-4b56-8022-9d40216afd19)
+
+![Image](https://github.com/user-attachments/assets/4dc827c4-b167-488c-8a47-e86dcf0d2f46)
+
