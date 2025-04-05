@@ -7,7 +7,7 @@
 
 ![Image](https://github.com/user-attachments/assets/72ecc66d-5dbc-4fca-85d9-60143b97054e)
 2. Adding the script: 
- + I did have ChatGPT to create me a script that does the following things steps to
+ + I did have ChatGPT to create me a script that shows me steps to
    + checks the effective user id (EUID) - if running as root the script may proceed, otherwise it exits and prompts the user that this script requires sudo or root
       + checks that the system package manager is apt (or apt is available on the system), otherwise it exits and prompts the user that this script uses the apt package manager
      + provides the user with information on what will be installed - allows the user to provide y for yes and proceeds or n for no and exits
