@@ -14,3 +14,9 @@ Task 4 overall:
 
     ![Image](https://github.com/user-attachments/assets/7eedba4d-d938-41c3-a582-36b14ea51df1)
 
+TASK 3:
++ For this task I got feedback that I needed to fix the script so it tell sthe user if AWS was installed or not and I used: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-version.html and AI to ask it see if it gave simimlar script and the outcome was below:
+
+![Image](https://github.com/user-attachments/assets/25ab6286-9552-4070-b31a-a613f9d15026)
+
+![Image](https://github.com/user-attachments/assets/f094b80f-cea9-4085-9119-00d70f815c9a)
