@@ -6,4 +6,11 @@ Task 4 overall:
   ![Image](https://github.com/user-attachments/assets/3f98b11e-22a7-4cd2-aee6-7ecfb2661dec) 
 
 + Located in the README.md in the vim-config file I have entered some shortcuts that I used a lot initially.
-  ![Image](https://github.com/user-attachments/assets/87c827c9-5751-479d-8cac-696f592492a6) 
+  ![Image](https://github.com/user-attachments/assets/87c827c9-5751-479d-8cac-696f592492a6)
+
+  TASK 2:
+  + I fixed the error of the script being in the wrong file location, by commenting where the script initally was.
+  + Then I placed it into the correct setup_vimfinal.sh file below and ran to see that the command was still running correctly.
+
+    ![Image](https://github.com/user-attachments/assets/7eedba4d-d938-41c3-a582-36b14ea51df1)
+
