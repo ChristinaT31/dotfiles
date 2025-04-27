@@ -20,3 +20,17 @@ TASK 3:
 ![Image](https://github.com/user-attachments/assets/25ab6286-9552-4070-b31a-a613f9d15026)
 
 ![Image](https://github.com/user-attachments/assets/f094b80f-cea9-4085-9119-00d70f815c9a)
+
+TASK 4: 
++ What this dotfiles collection contains
+    + This collectoin of dotfiles contains enviromental attributes such as scripts with themes.
+    + Scirpts that has useful functions such as checking IP addresses and adding/checking dates.
+    + Some of the most important information holds the scripts chceking if software installions such as AWS has been installed correctly in the correct locations as well.
++ How to clone / utilize the dotfiles in this repo
+    + To clone a repo:
+        + You would use the comman : git clone https://github.com/username/dotfiles.git ~/.dotfiles
+        + Have it in the correct location: cd ~/.dotfiles
+        + And run the script: ./setup.sh
++ Retrospective notes of desired improvements either bulleted in README or added as Issues in repository
+    + Some things that I believe I could/can do better was leaving more notes in the begining especially when learning the functions
+    + Something in the future I can do is adding scripts that can check for errors.
