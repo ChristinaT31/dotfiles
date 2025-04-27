@@ -1,4 +1,4 @@
-My barsch shell:
+# My barsch shell:
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package)
 # don't put duplicate lines or lines starting with space in the history.
@@ -105,6 +105,6 @@ function whatsmyip ()
 alias da='date "+%Y-%m-%d %A %T %Z"'
 
 # Prompt user to reload the environment
-echo "Changes have been applied, please use the following command to reload their environment with source or by logging out and back on:"
-echo "source ~/.bashrc"
+#echo "Changes have been applied, please use the following command to reload their environment with source or by logging out and back on:"
+#echo "source ~/.bashrc"
 
